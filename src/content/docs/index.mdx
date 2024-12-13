@@ -1,14 +1,12 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to LIMGEN
+description: Limgen is an infrastructure-as-code (IaC) generator for full-stack applications. Inspired by @shadcn/ui, this tool aims to set up a well-crafted, maintainable infrastructure workflow inside of your project.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Infrastructure as Code (IaC) made for simplicity and transparency.
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Get started
+      link: /getting_started/
       icon: right-arrow
     - text: Read the Starlight docs
       link: https://starlight.astro.build
@@ -17,20 +15,25 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
-
-## Next steps
+import { ContributorList } from "starlight-contributor-list";
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
+	<Card title="Marketing Card Example" icon="pencil">
 		Edit `src/content/docs/index.mdx` to see this page change.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Marketing Card Example" icon="pencil">
+		Edit `src/content/docs/index.mdx` to see this page change.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Marketing Card Example" icon="pencil">
+		Edit `src/content/docs/index.mdx` to see this page change.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Marketing Card Example" icon="pencil">
+		Edit `src/content/docs/index.mdx` to see this page change.
+	</Card>
+	<Card title="Marketing Card Example" icon="pencil">
+		Edit `src/content/docs/index.mdx` to see this page change.
 	</Card>
 </CardGrid>
+
+## Contributors
+<ContributorList githubRepo="limlabs/limgen"/>
